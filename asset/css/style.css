@@ -458,7 +458,7 @@ p{
 }
 
 .newsletter{
-
+  overflow: hidden;
   /* display:flex; */
   /* padding-left: 90px;
   height:300px;
@@ -469,6 +469,7 @@ p{
   
 }
 .subscribe{
+  
   margin-left: 90px;
   background-color: rgb(255, 255, 255);
   /* background-size: cover; */
@@ -523,7 +524,7 @@ width: 90%;
   border-radius: 3px;
   color: #fffcfc;
 }
-
+/* 
 .footer{
   background-color: #f9fafa;
 }
@@ -553,5 +554,144 @@ width: 90%;
 .legal{
   position: absolute;
   left: 1000px;
+} */
+
+
+
+#up_foot {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  margin-bottom: -20px;
 }
+
+#up_1 {
+  font-size: smaller;
+  text-align: justify;
+}
+
+#up_1 p{
+  line-height: 20px;
+  font-size: x-small;
+}
+
+#up_1 img {
+  width: 200px;
+}
+
+#up2_grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.up2_class {
+  text-align: center;
+  padding: 15px;
+  padding-top: 0px;
+  font-size: smaller;
+}
+
+#up_2 h4 {
+  margin-left: 16px;
+}
+
+#up3_grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.up3_class {
+  padding: 15px;
+  padding-top: 0px;
+  font-size: smaller;
+}
+
+#up_3 h4 {
+  margin-left: 18px;
+}
+
+#foot_line {
+  position: relative;
+  z-index: 30;
+  margin-bottom: -60px;
+  margin-top: 30px;
+}
+
+#foot_hr {
+  width: 85%;
+}
+
+#down_foot {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 3%;
+  margin-right: 40px;
+  margin-top: 70px;
+  font-size: 11px;
+  margin-top: 80px;
+  line-height: 20px;
+}
+
+#down_1 {
+  padding-right: 5px;
+  display: flex;
+}
+
+#down_1 p {
+  margin-top: -4px;
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+#down_2 {
+  display: flex;
+  padding-left: 100px;
+}
+
+#down_2 p {
+  margin-top: -4px;
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+#down_3 {
+  display: flex;
+  padding-left: 100px;
+}
+
+#down_3 p {
+  margin-top: -4px;
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+#down_4 {
+  margin-left: 70px;
+  margin-top: -4px;
+}
+
+#down_4 h3 {
+  margin-top: 3px;
+}
+
+#down_4_icon {
+  font-size: medium;
+  margin-top: 10px;
+  padding-left: 20PX;
+}
+
+.foot_icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#footer_end {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+
+
 
